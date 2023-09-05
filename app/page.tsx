@@ -6,11 +6,8 @@ import Recom from '@/components/forApp/Recomendation/Recom';
 import WhatsNew from '@/components/forApp/WhatsNew/WhatsNew';
 import Hero from '@/components/forApp/midSection/Hero'
 import Lenis from '@studio-freight/lenis'
-import Dynamic from '@/components/ReuseableComp/Dynamic';
-// import ShuffleHero from '@/components/forApp/midSection/Hero2';
-import dynamic from 'next/dynamic';
+import ShuffleH from '@/components/forApp/midSection/ShuffleH';
 
-const ShuffleHero = dynamic(() => import('@/components/forApp/midSection/Hero2'))
 
 
 export default function Home() {
@@ -27,7 +24,7 @@ export default function Home() {
       return (
             
                   <div className='py-5 my-10 space-y-10 mx-0'>
-                        <ShuffleHero/>
+                        <ShuffleH/>
                         <Hero />
                         <Recom />
                         <WhatsNew/>
@@ -38,3 +35,4 @@ export default function Home() {
 }
 
 
+export const dynamic = 'force-dynamic'
