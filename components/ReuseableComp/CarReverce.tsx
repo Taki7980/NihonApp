@@ -31,9 +31,9 @@ const ItemCardReverce = ({
                               </p>
 
                         </div>
-                        <div className="relative flex h-fit w-[100%] rounded-lg">
+                        <div className="relative flex h-fit w-[100%]">
                               <Image
-                                    className="object-cover rounded-lg hidden md:block hover:opacity-60"
+                                    className="object-cover hidden md:block hover:opacity-60"
                                     src={imageDesktop}
                                     alt={name}
                                     // fill

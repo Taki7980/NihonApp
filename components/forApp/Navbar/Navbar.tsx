@@ -6,6 +6,7 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic'
 import logo from '../../../public/logo.png'
 import { DarkBtn } from '@/components/DarkBtn';
+import Container from '@/components/ReuseableComp/Container';
 
 
 
@@ -15,7 +16,7 @@ const NavBottomSection = dynamic(() => import('./NavBottomSection'), { ssr: fals
 
 const Navbar = () => {
       return (
-            <div className='space-y-5 max-w-[78rem] mx-auto'>
+            <Container Class='space-y-5 mx-auto'>
                   <div className='px-5 relative flex justify-between items-center pt-9 pb-4'>
                         <div className="lg:flex md:flex gap-4">
                               <Image src={logo} className='rounded-lg' alt='icon' style={{ width: '18vw', height: 'auto' }} />
@@ -30,7 +31,7 @@ const Navbar = () => {
                   </div>
 
                   <NavBottomSection />
-            </div>
+            </Container>
       )
 }
 

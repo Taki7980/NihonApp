@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import Navbar from '@/components/forApp/Navbar/Navbar'
 import { cn } from '@/lib/utils'
+import Footer from '@/components/forApp/Footer/Footer'
 
 
 
@@ -28,6 +29,7 @@ export default function RootLayout({
                         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
                               <Navbar/>
                               {children}
+                              <Footer />
                         </ThemeProvider>
                   </body>
             </html>

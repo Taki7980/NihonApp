@@ -3,6 +3,7 @@
 import Heading from '@/components/ReuseableComp/Heading';
 import dynamic from 'next/dynamic';
 import { Items1, Items2, Items3 } from '@/lib/Recomendation';
+import Container from '@/components/ReuseableComp/Container';
 
 
 
@@ -11,9 +12,9 @@ const Recom = () => {
       
 
       return (
-            <div className='max-w-[78rem] mx-auto h-full space-y-6'>
+            <Container Class='space-y-6'>
                   <Heading title='Recommended' center />
-                  <div className="flex flex-col space-y-4 items-center justify-evenly">
+                  <div className="flex flex-col space-y-4">
                         
                               <OpenCard BtnName={Items1.BtnName} name1={Items1.name1} name2={Items1.name2} name22={Items1.name22} name3={Items1.name3} description1={Items1.description1} description2={Items1.description2} description22={Items1.description22} description3={Items1.description3} catagory1={Items1.catagory1} catagory2={Items1.catagory2} catagory22={Items1.catagory22} catagory3={Items1.catagory3} img1={Items1.img1} img2={Items1.img2} img22={Items1.img22} img3={Items1.img3} img1mob={Items1.img1mob} img2mob={Items1.img2mob} img22mob={Items1.img22mob} img3mob={Items1.img3mob} />
                         
@@ -27,7 +28,7 @@ const Recom = () => {
                         
                   </div>
 
-            </div>
+            </Container>
       )
 }
 
