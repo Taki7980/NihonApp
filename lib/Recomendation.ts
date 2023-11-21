@@ -16,15 +16,15 @@ export const Items1 =
       description22: `Origami is a Japanese pastime of making animals, flowers, and many other things simply by folding paper. This activity requires you to think carefully and work nimbly with your fingers`,
       description3: `Alongside noh and kabuki, ningyo joruri puppet narratives are one of the three major traditional Japanese performing arts. Dating back to the Edo period (1603–1868), the art of using puppets in storytelling has been passed down to present day Japan.`,
 
-      img1: "https://web-japan.org/jvt/img/211028.jpg",
-      img2: "https://web-japan.org/kidsweb/img/cool20.jpg",
-      img22: "https://web-japan.org/kidsweb/img/cool20.jpg",
-      img3: "https://web-japan.org/top/img/joruri.jpg",
+      img1: "/images/Girlwithbow.jpg",
+      img2: "/images/origami.jpg",
+      img22: "/images/origami.jpg",
+      img3: "/images/joruri.jpg",
 
-      img1mob: "https://web-japan.org/jvt/img/211028.jpg",
-      img2mob: "https://web-japan.org/kidsweb/img/cool20.jpg",
-      img22mob: "https://web-japan.org/kidsweb/img/cool20.jpg",
-      img3mob: "https://web-japan.org/top/img/joruri.jpg",
+      img1mob: "/images/Girlwithbow.jpg",
+      img2mob: "/images/origami.jpg",
+      img22mob: "/images/origami.jpg",
+      img3mob: "/images/joruri.jpg",
 }
 
 
@@ -45,15 +45,15 @@ export const Items2 =
       description22: `Origami is a Japanese pastime of making animals, flowers, and many other things simply by folding paper. This activity requires you to think carefully and work nimbly with your fingers`,
       description3: `Anime fans are making the trek to destinations that appear in popular films and television series.If you pay a visit to one these places, you may even find yourself in one of your favorite scenes.`,
 
-      img1: "https://web-japan.org/top/img/hakone.jpg",
-      img2: "https://web-japan.org/jvt/img/220512.jpg",
-      img22: "https://web-japan.org/jvt/img/220512.jpg",
-      img3: "https://web-japan.org/top/img/anime.jpg",
+      img1: "/images/hakone.jpg",
+      img2: "/images/rikshaw.jpg",
+      img22: "/images/rikshaw.jpg",
+      img3: "/images/anime.jpg",
 
-      img1mob: "https://web-japan.org/top/img/hakone.jpg",
-      img2mob: "https://web-japan.org/jvt/img/220512.jpg",
-      img22mob: "https://web-japan.org/jvt/img/220512.jpg",
-      img3mob: "https://web-japan.org/top/img/anime.jpg",
+      img1mob: "/images/hakone.jpg",
+      img2mob: "/images/rikshaw.jpg",
+      img22mob: "/images/rikshaw.jpg",
+      img3mob: "/images/anime.jpg",
 }
 
 
@@ -77,13 +77,13 @@ export const Items3 =
       description3: `Each region of Japan has its own specialties, many of which can only be sampled in particular season.
       Here is a look at some of the most popular regional specialties, including delicious foods which have a good reputation throughout Japan, as well as those that make great souvenirs!`,
 
-      img1: "https://web-japan.org/trends/img/jfd202102_soybeans01.jpg",
-      img2: "https://web-japan.org/jvt/img/220203.png",
-      img22: "https://web-japan.org/jvt/img/220203.png",
-      img3: "https://web-japan.org/kidsweb/img/local_top_img20.jpg",
+      img1: "/images/soyabean.jpg",
+      img2: "/images/ramen.jpg",
+      img22: "/images/ramen.png",
+      img3: "/images/fruit.jpg",
 
-      img1mob: "https://web-japan.org/trends/img/jfd202102_soybeans01.jpg",
-      img2mob: "https://web-japan.org/jvt/img/220203.png",
-      img22mob: "https://web-japan.org/jvt/img/220203.png",
-      img3mob: "https://web-japan.org/kidsweb/img/local_top_img20.jpg",
+      img1mob: "/images/soyabean.jpg",
+      img2mob: "/images/ramen.jpg",
+      img22mob: "/images/ramen.png",
+      img3mob: "/images/fruit.jpg",
 }

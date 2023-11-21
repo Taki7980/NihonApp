@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+      reactStrictMode: true,
       images: {
-            domains: [
-                  "web-japan.org",
+            domains: ["randomuser.me", "firebasestorage.googleapis.com", "web-japan.org",
                   "images.unsplash.com",
                   "as1.ftcdn.net"
-            ]
+            ],
       }
 }
 

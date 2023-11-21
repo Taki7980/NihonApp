@@ -18,9 +18,9 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ imgSrc, head, para, readMoreLink,className1, className }) => {
       return (
 
-            <div className={cn('w-auto rounded-lg', className1)}>
-                  <div className='w-auto relative'>
-                        <Image src={imgSrc} alt='helo' className={cn('rounded-lg',className)} height={100} width={100} style={{objectFit:'cover'}} loading='lazy' layout='responsive' />
+            <div className={cn('w-auto', className1)}>
+                  <div className='w-auto relative '>
+                        <Image src={imgSrc} alt='helo' className={cn('rounded-lg',className)} height={100} width={100} style={{objectFit:'cover',borderRadius:'20px'}} loading='lazy' layout='responsive' />
                   </div>
                   <div className="py-5 w-auto h-full">
 
