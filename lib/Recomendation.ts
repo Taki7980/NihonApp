@@ -78,12 +78,12 @@ export const Items3 =
       Here is a look at some of the most popular regional specialties, including delicious foods which have a good reputation throughout Japan, as well as those that make great souvenirs!`,
 
       img1: "/images/soyabean.jpg",
-      img2: "/images/ramen.jpg",
+      img2: "/images/ramen.png",
       img22: "/images/ramen.png",
       img3: "/images/fruit.jpg",
 
       img1mob: "/images/soyabean.jpg",
-      img2mob: "/images/ramen.jpg",
+      img2mob: "/images/ramen.png",
       img22mob: "/images/ramen.png",
       img3mob: "/images/fruit.jpg",
 }
