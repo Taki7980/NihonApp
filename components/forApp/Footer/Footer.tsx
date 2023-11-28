@@ -5,7 +5,7 @@ import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
     return (
-        <Container Class="px-20 py-20">
+        <Container Class="px-10 py-20">
             <div className="text-center flex justify-around space-x-20 text-black">
                 <div className="text-xl">
                     ©2024 Weblifi, Inc. All rights reserved.
@@ -13,21 +13,19 @@ const Footer = () => {
                 <div>
                     Terms & Conditions
                 </div>
-                <div className="flex space-x-2">
+                <div className="flex space-x-2 flex-col md:flex-row gap-3 item-center justify-center align-centet text-center">
 
-                    <div className="bg-black p-2 rounded-full ">
-                        <Twitter className="h-6 w-6 text-white" />
+                    <Twitter className="h-6 w-6 text-black" />
 
-                    </div>
-                    <div className="bg-black p-2 rounded-full">
-                        <Linkedin className="h-6 w-6 text-white" />
-                    </div>
-                    <div className="bg-black p-2 rounded-full">
-                        <Instagram className="h-6 w-6 text-white" />
-                    </div>
-                    <div className="bg-black p-2 rounded-full">
-                        <Facebook className="h-6 w-6 text-white" />
-                    </div>
+
+                    <Linkedin className="h-6 w-6 text-black" />
+
+
+                    <Instagram className="h-6 w-6 text-black" />
+
+
+                    <Facebook className="h-6 w-6 text-black" />
+
 
                 </div>
 
